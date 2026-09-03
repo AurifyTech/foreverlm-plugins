@@ -1,0 +1,43 @@
+{
+  "name": "foreverlm",
+  "version": "1.0.2",
+  "description": "Plan learning journeys, study private sources, and save Feynman-style reviews with ForeverLM.",
+  "author": {
+    "name": "ForeverLM",
+    "url": "https://foreverlm.com"
+  },
+  "homepage": "https://docs.foreverlm.com/setup-mcp",
+  "repository": "https://github.com/AurifyTech/foreverlm-plugins",
+  "keywords": [
+    "learning",
+    "study",
+    "knowledge-base",
+    "feynman-technique",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "ForeverLM",
+    "shortDescription": "Study and review your ForeverLM library.",
+    "longDescription": "Connect ChatGPT to your private ForeverLM knowledge base to plan a learning journey, study scheduled sources, run Feynman-style reviews, and save the resulting transcript back to ForeverLM.",
+    "developerName": "ForeverLM",
+    "category": "Education",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://foreverlm.com",
+    "privacyPolicyURL": "https://foreverlm.com/privacy",
+    "termsOfServiceURL": "https://foreverlm.com/terms",
+    "brandColor": "#6366F1",
+    "composerIcon": "./assets/composer-icon.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png",
+    "defaultPrompt": [
+      "What should I study today?",
+      "Plan this week's learning journey.",
+      "Quiz me on today's sources."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "foreverlm": {
+      "type": "http",
+      "url": "https://plugin.foreverlm.com/mcp",
+      "description": "Study and manage your private ForeverLM library: sources, projects, learning journeys, and Feynman-style reviews."
+    }
+  }
+}

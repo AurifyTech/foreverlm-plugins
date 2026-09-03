@@ -1,0 +1,31 @@
+{
+  "name": "ForeverLM",
+  "description": "Official ForeverLM plugins and skills for Grok. Connect to your private learning library for study planning, source retrieval, projects, and Feynman-style reviews.",
+  "owner": {
+    "name": "ForeverLM",
+    "url": "https://foreverlm.com"
+  },
+  "plugins": [
+    {
+      "name": "foreverlm",
+      "description": "Connect Grok to your ForeverLM library to plan learning journeys, study private sources, run Feynman-style reviews, and save transcripts.",
+      "category": "education",
+      "source": {
+        "type": "local",
+        "path": "./plugins/foreverlm"
+      },
+      "version": "1.0.2",
+      "homepage": "https://foreverlm.com",
+      "keywords": [
+        "foreverlm",
+        "learning",
+        "study",
+        "education",
+        "review",
+        "mcp",
+        "knowledge-base"
+      ],
+      "author": "ForeverLM"
+    }
+  ]
+}

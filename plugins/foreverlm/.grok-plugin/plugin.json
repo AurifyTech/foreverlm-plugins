@@ -1,0 +1,21 @@
+{
+  "name": "foreverlm",
+  "version": "1.0.2",
+  "description": "Connect Grok to your ForeverLM library to plan learning journeys, study private sources, run Feynman-style reviews, and save transcripts.",
+  "author": {
+    "name": "ForeverLM",
+    "url": "https://foreverlm.com"
+  },
+  "homepage": "https://foreverlm.com",
+  "repository": "https://github.com/foreverlm-group/foreverlm",
+  "license": "Proprietary",
+  "keywords": [
+    "foreverlm",
+    "learning",
+    "study",
+    "education",
+    "review",
+    "mcp",
+    "knowledge-base"
+  ]
+}

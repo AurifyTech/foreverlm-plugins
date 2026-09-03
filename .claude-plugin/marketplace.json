@@ -1,0 +1,34 @@
+{
+  "name": "foreverlm",
+  "description": "Official ForeverLM plugin for Claude Code and Cowork. Connect Claude to your private learning library for study planning, source retrieval, Projects, and Feynman-style reviews.",
+  "owner": {
+    "name": "ForeverLM",
+    "url": "https://foreverlm.com"
+  },
+  "plugins": [
+    {
+      "name": "foreverlm",
+      "displayName": "ForeverLM",
+      "description": "Connect Claude to your ForeverLM library to plan learning journeys, study private sources, run Feynman-style reviews, and save transcripts.",
+      "source": "./plugins/foreverlm",
+      "version": "1.0.2",
+      "author": {
+        "name": "ForeverLM",
+        "url": "https://foreverlm.com"
+      },
+      "homepage": "https://docs.foreverlm.com/setup-mcp",
+      "repository": "https://github.com/AurifyTech/foreverlm-plugins",
+      "license": "MIT",
+      "category": "education",
+      "keywords": [
+        "foreverlm",
+        "learning",
+        "study",
+        "education",
+        "review",
+        "mcp",
+        "knowledge-base"
+      ]
+    }
+  ]
+}
