@@ -1,6 +1,6 @@
 {
   "name": "foreverlm",
-  "description": "Official ForeverLM plugin for Claude Code and Cowork. Connect Claude to your private learning library for study planning, source retrieval, Projects, and Feynman-style reviews.",
+  "description": "Official ForeverLM plugin for Claude Code and Cowork. Connect Claude to your private learning library for study planning, source retrieval, Projects, and reviews.",
   "owner": {
     "name": "ForeverLM",
     "url": "https://foreverlm.com"
@@ -9,9 +9,9 @@
     {
       "name": "foreverlm",
       "displayName": "ForeverLM",
-      "description": "Connect Claude to your ForeverLM library to plan learning journeys, study private sources, run Feynman-style reviews, and save transcripts.",
+      "description": "Connect Claude to your ForeverLM library to plan learning journeys, study private sources, run reviews, and save transcripts.",
       "source": "./plugins/foreverlm",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "ForeverLM",
         "url": "https://foreverlm.com"

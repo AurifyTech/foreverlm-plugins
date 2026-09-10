@@ -1,6 +1,6 @@
 ---
 name: foreverlm-learning-workflow
-description: Use ForeverLM to plan study, load private source material, conduct a Feynman-style review, and save the review transcript.
+description: Use ForeverLM to plan study, load private source material, conduct a review, and save the review transcript.
 ---
 
 # ForeverLM learning workflow

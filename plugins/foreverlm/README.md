@@ -2,16 +2,18 @@
 
 Connect your AI assistant to your private ForeverLM library.
 
-This plugin adds the official remote ForeverLM MCP server, plus a learning-workflow
-skill, so an assistant can:
+This plugin adds the official remote ForeverLM MCP server, plus two skills (the
+learning workflow, and a one-time Zotero or Paperpile library migration), so an
+assistant can:
 
 - Retrieve and search your sources (articles, books, papers, podcasts, videos)
 - Read and write the highlights and notes you made while reading
 - Inspect recurring meeting groups and set their sidebar image
 - Work with Projects and their context
 - Plan and manage Learning Journeys and daily study schedules
-- Run interactive Feynman-style review sessions and save the transcripts
-- Read Slack channels you have connected and file threads as sources
+- Run interactive review sessions and save the transcripts
+- Read Slack channels you have connected, live, and file a PDF posted there as its paper
+- Move a Zotero or Paperpile library into ForeverLM once, through the paper pipeline
 
 ## Remote MCP server
 
@@ -66,7 +68,7 @@ surface the error instead of guessing library contents.
 
 - "What should I study today?"
 - "Plan this week's learning journey and move the Bayesian source to Friday."
-- "Quiz me on today's sources using a Feynman review and save the transcript."
+- "Quiz me on today's sources using a review and save the transcript."
 - "Summarize the open context for my Statistics project."
 - "What have I been highlighting this week?"
 

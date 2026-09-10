@@ -1,8 +1,8 @@
 {
   "name": "foreverlm",
   "displayName": "ForeverLM",
-  "version": "1.0.2",
-  "description": "Connect Claude to your ForeverLM library to plan learning journeys, study private sources, run Feynman-style reviews, and save transcripts.",
+  "version": "1.0.3",
+  "description": "Connect Claude to your ForeverLM library to plan learning journeys, study private sources, run reviews, and save transcripts.",
   "author": {
     "name": "ForeverLM",
     "url": "https://foreverlm.com"

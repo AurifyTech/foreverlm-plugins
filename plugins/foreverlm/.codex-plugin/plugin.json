@@ -1,7 +1,7 @@
 {
   "name": "foreverlm",
-  "version": "1.0.2",
-  "description": "Plan learning journeys, study private sources, and save Feynman-style reviews with ForeverLM.",
+  "version": "1.0.3",
+  "description": "Plan learning journeys, study private sources, and save reviews with ForeverLM.",
   "author": {
     "name": "ForeverLM",
     "url": "https://foreverlm.com"
@@ -12,14 +12,14 @@
     "learning",
     "study",
     "knowledge-base",
-    "feynman-technique",
+    "review",
     "mcp"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "ForeverLM",
     "shortDescription": "Study and review your ForeverLM library.",
-    "longDescription": "Connect ChatGPT to your private ForeverLM knowledge base to plan a learning journey, study scheduled sources, run Feynman-style reviews, and save the resulting transcript back to ForeverLM.",
+    "longDescription": "Connect ChatGPT to your private ForeverLM knowledge base to plan a learning journey, study scheduled sources, run reviews, and save the resulting transcript back to ForeverLM.",
     "developerName": "ForeverLM",
     "category": "Education",
     "capabilities": [

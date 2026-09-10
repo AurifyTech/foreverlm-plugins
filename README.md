@@ -3,7 +3,7 @@
 Official plugin packages for [ForeverLM](https://foreverlm.com), the learning
 app that keeps your articles, papers, books, podcasts, videos, and meetings in
 one private library and lets an AI assistant study them with you using the
-Feynman technique.
+explain-it-back review.
 
 Every package here wraps the same production remote MCP server:
 
@@ -45,7 +45,7 @@ share. Until it is published there, follow the
 | --- | --- |
 | `.claude-plugin/marketplace.json` | Claude Code marketplace manifest |
 | `.grok-plugin/marketplace.json` | Grok Build marketplace manifest |
-| `plugins/foreverlm/` | The plugin: provider manifests, `.mcp.json`, the learning-workflow skill, and icons |
+| `plugins/foreverlm/` | The plugin: provider manifests, `.mcp.json`, the learning-workflow and paper-library-migration skills, and icons |
 
 This repository is mirrored from the private ForeverLM monorepo by
 `scripts/publish-plugins-repo.sh` there; pull requests here are not merged
