@@ -2,8 +2,9 @@
 
 Connect your AI assistant to your private ForeverLM library.
 
-This plugin adds the official remote ForeverLM MCP server, plus two skills (the
-learning workflow, and a one-time Zotero or Paperpile library migration), so an
+This plugin adds the official remote ForeverLM MCP server, plus three skills (the
+learning workflow, a one-time Zotero or Paperpile library migration, and a chat
+export that brings a conversation held elsewhere into ForeverLM as a chat), so an
 assistant can:
 
 - Retrieve and search your sources (articles, books, papers, podcasts, videos)
@@ -14,6 +15,7 @@ assistant can:
 - Run interactive review sessions and save the transcripts
 - Read Slack channels you have connected, live, and file a PDF posted there as its paper
 - Move a Zotero or Paperpile library into ForeverLM once, through the paper pipeline
+- Bring a chat held with another assistant into ForeverLM as a chat, with its Docs and Source links intact
 
 ## Remote MCP server
 
