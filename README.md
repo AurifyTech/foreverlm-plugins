@@ -45,7 +45,7 @@ share. Until it is published there, follow the
 | --- | --- |
 | `.claude-plugin/marketplace.json` | Claude Code marketplace manifest |
 | `.grok-plugin/marketplace.json` | Grok Build marketplace manifest |
-| `plugins/foreverlm/` | The plugin: provider manifests, `.mcp.json`, the learning-workflow, paper-library-migration and chat-export skills, and icons |
+| `plugins/foreverlm/` | The plugin: provider manifests, `.mcp.json`, the learning-workflow, paper-library-migration, chat-export and ai-cost-review skills, and icons |
 
 This repository is mirrored from the private ForeverLM monorepo by
 `scripts/publish-plugins-repo.sh` there; pull requests here are not merged

@@ -1,7 +1,7 @@
 {
   "name": "foreverlm",
   "displayName": "ForeverLM",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Connect Claude to your ForeverLM library to plan learning journeys, study private sources, run reviews, and save transcripts.",
   "author": {
     "name": "ForeverLM",

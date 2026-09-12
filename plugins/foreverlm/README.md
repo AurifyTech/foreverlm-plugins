@@ -2,9 +2,10 @@
 
 Connect your AI assistant to your private ForeverLM library.
 
-This plugin adds the official remote ForeverLM MCP server, plus three skills (the
-learning workflow, a one-time Zotero or Paperpile library migration, and a chat
-export that brings a conversation held elsewhere into ForeverLM as a chat), so an
+This plugin adds the official remote ForeverLM MCP server, plus four skills (the
+learning workflow, a one-time Zotero or Paperpile library migration, a chat
+export that brings a conversation held elsewhere into ForeverLM as a chat, and an
+AI cost review that proposes cheaper model settings from your usage ledger), so an
 assistant can:
 
 - Retrieve and search your sources (articles, books, papers, podcasts, videos)
@@ -16,6 +17,7 @@ assistant can:
 - Read Slack channels you have connected, live, and file a PDF posted there as its paper
 - Move a Zotero or Paperpile library into ForeverLM once, through the paper pipeline
 - Bring a chat held with another assistant into ForeverLM as a chat, with its Docs and Source links intact
+- Review what you spend on AI, by task and model, and change the model settings you approve
 
 ## Remote MCP server
 
@@ -63,7 +65,7 @@ An authorized always-on MCP host (iCloud relay) can serve most public tools even
 the Mac app is closed. Capabilities that require the native Mac app still need the
 desktop app running and the relay active.
 
-Always call `get_mcp_status` first in a workflow. If the connector is unavailable,
+Always call `get_mcp_status` first in a workflow. If the plugin is unavailable,
 surface the error instead of guessing library contents.
 
 ## Example usage
@@ -98,7 +100,7 @@ One package, versioned 1.0.2, serves every provider:
 - **Claude Code and Cowork:** installable from this marketplace today; submission to
   Anthropic's plugin directory is in progress.
 - **Claude (claude.ai, Desktop, mobile):** the remote MCP server is being submitted to
-  the Claude Connectors Directory; until then use the custom connector setup.
+  the Claude Connectors Directory; until then use the custom plugin setup.
 - **ChatGPT and Codex:** version 1.0.2 is in OpenAI's review.
 - **Grok Build:** installable from this marketplace today.
 

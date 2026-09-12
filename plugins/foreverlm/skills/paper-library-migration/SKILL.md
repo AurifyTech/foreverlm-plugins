@@ -5,7 +5,7 @@ description: Move a Zotero or Paperpile paper library into ForeverLM once — re
 
 # ForeverLM paper library migration
 
-ForeverLM has no Zotero or Paperpile connector, on purpose. A paper becomes searchable, listenable, open to Chat and to review only once its PDF lives in the user's ForeverLM library, in their private iCloud container. So the move is a one-time import, not a sync. Read the reference manager; never modify it.
+ForeverLM has no Zotero or Paperpile plugin, on purpose. A paper becomes searchable, listenable, open to Chat and to review only once its PDF lives in the user's ForeverLM library, in their private iCloud container. So the move is a one-time import, not a sync. Read the reference manager; never modify it.
 
 ## Before importing
 
